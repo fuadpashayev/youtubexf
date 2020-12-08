@@ -13,4 +13,4 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/download', 'YoutubeController@download')->name('download');
+Route::get('/watch', 'YoutubeController@download')->name('download');
